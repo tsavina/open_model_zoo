@@ -262,7 +262,7 @@ You can use the following instructions:
 You may optionally provide `reference` field for metric, if you want the calculated metric
 tested against a specific value (reported in canonical paper).
 
-Some metrics support providing vector results, for example, mAP is able to return average precision for each detection class. You can change view mode for metric results using `presenter` (for example,`print_vector`, `print_scalar`).
+Some metrics support providing vector results, for example, mAP is able to return average precision for each detection class. You can change view mode for metric results using `presenter` (for example, `print_vector`, `print_scalar`).
 
 Example:
 

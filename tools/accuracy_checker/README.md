@@ -165,7 +165,7 @@ models:
   datasets:
     - name: dataset_name
 ```
-Optionally you can use global configuration. It may be useful for avoiding duplication if you have several models that need to run on the same dataset.
+Optionally you can use global configuration. It may be useful for avoiding duplication if you have several models which need to be run on the same dataset.
 Example of global definitions file can be found at `<omz_dir>/data/dataset_definitions.yml`. Global definitions will be merged with evaluation config in the runtime by dataset name.
 Parameters of global configuration can be overwritten by local config. For example, if in definitions specified resize with destination size 224 and in the local config used resize with size 227, the value in config 227 will be used as resize parameter.
 You can use field `global_definitions` for specifying the path to global definitions directly in the model config or via command-line arguments (`-d`, `--definitions`).

@@ -24,7 +24,7 @@ Install prerequisites first:
 sudo apt-get install python3 python3-dev python3-setuptools python3-pip
 ```
 
-Python setup tools and Python package manager (pip) install packages into system directory by default. Installation of Accuracy Checker is tested only via [virtual environment](https://docs.python.org/3/tutorial/venv.html).
+Python\* setuptools and Python\* package manager (pip) install packages into system directory by default. Installation of Accuracy Checker is tested only via [virtual environment](https://docs.python.org/3/tutorial/venv.html).
 
 Install the virtual environment:
 
@@ -39,7 +39,7 @@ Activate the virtual environment:
 source <directory_for_environment>/bin/activate
 ```
 
-Virtual environment can be deactivated using the command:
+Virtual environment can be deactivated using the following command:
 
 ```bash
 deactivate

@@ -145,7 +145,7 @@ Options:
     -no_show                  Optional. Disable showing of processed images.
     -time "<integer>"         Optional. Time in seconds to execute program. Default is -1 (infinite time).
     -u                        Optional. List of monitors to show initially.
-    -backend <string>         Optional. Specify an inference backend. The list of available backends depends on openCV version. Default value is IE. See README.md for details
+    -backend "<string>"       Optional. Specify an inference backend. The list of available backends depends on openCV version. Default value is IE. See README.md for details
     -mean_values              Optional. Normalize input by subtracting the mean values per channel. Example: "255.0 255.0 255.0"
     -scale_values             Optional. Divide input by scale values per channel. Division is applied after mean values subtraction. Example: "255.0 255.0 255.0"
 ```
